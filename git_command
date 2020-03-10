@@ -1,0 +1,10 @@
+how to create new repo from local 
+
+1. create new repo in git with same name 
+2. go to your local system in project location like E:\Java world\work_space\api and open here command prompt 
+3. remove all git related files from current project in local - "rd .git /S/Q"
+4. initiat git - "git init"
+5. add all the file in repo "git add ."
+6. commit all the file in repo 'git commit -m "my firt commit" '
+7. go to repo and copy the repo url and connect this local project remotly with repo 'git remote add origin https://github.com/kushwaharjun/api.git'
+8. push the code to master branch 'git push -u origin master'
